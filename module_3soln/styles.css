@@ -1,0 +1,56 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+.menu-section {
+  background-color: #e7e7e7; /* Light grey background */
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Header */
+.navbar-default {
+  background-color: #c0c0c0; /* Grey background */
+  border: none;
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #000 !important;
+}
+
+.navbar-toggle {
+  margin-right: 15px;
+}
+
+.navbar-nav {
+  margin: 0;
+}
+
+/* Responsive Styling */
+@media (max-width: 767px) {
+  .menu-section {
+      margin-left: 5px;
+      margin-right: 5px;
+  }
+  .navbar-nav {
+      margin-top: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  #navbar-menu {
+      display: none; /* Hide the navbar menu on desktop */
+  }
+}
